@@ -4,6 +4,10 @@ public struct MyUnitConverter {
     
     private let secretNumber = 42
     
+    public init() {
+        
+    }
+    
     public func poundsToKilograms(_ pounds: Double) -> Double {
         return pounds * 2.2
     }
